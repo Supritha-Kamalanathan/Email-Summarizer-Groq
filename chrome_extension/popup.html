@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email Summarizer</title>
+        <style>
+            body {
+                width: 400px;
+                padding: 20px;
+                font-family: Arial, sans-serif;
+            }
+
+            .dropzone {
+                width: 100%;
+                height: 200px;
+                border: 2px dashed #ccc;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                background: #f9f9f9;
+                transition: all 0.3s ease;
+            }
+
+            .dropzone.dragover {
+                background: #e1e1e1;
+                border-color: #999;
+            }
+
+            .summary {
+                margin-top: 20px;
+                padding: 15px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                background: #fff;
+                max-height: 300px;
+                overflow-y: auto;
+            }
+
+            .loading {
+                display: none;
+                text-align: center;
+                margin: 20px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="dropzone" class="dropzone">
+            Drag and drop email files here, or click here to choose files
+        </div>
+        <div id="loading" class="loading">Processing emails...</div>
+        <div id="summary" class="summary"></div>
+        
+        <script src="popup.js"></script>
+    </body>
+</html>
