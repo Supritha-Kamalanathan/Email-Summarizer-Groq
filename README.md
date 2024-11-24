@@ -100,3 +100,7 @@ Request body:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+----------------------------------------------------------------------------------------------------
+
+![Screenshot (620)](https://github.com/user-attachments/assets/39762d3e-95f0-4d74-ad64-80a42f7663a3)
