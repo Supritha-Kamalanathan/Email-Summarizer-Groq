@@ -76,7 +76,6 @@ Email-Summarizer-Groq/
 
 - Email content is encrypted using Fernet symmetric encryption
 - CORS protection for the API endpoint
-- Rate limiting and file size restrictions
 
 ## API Endpoints
 
